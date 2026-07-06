@@ -1,10 +1,10 @@
 @media (min-width: 768px) {
     #menu-toggle {
-        display: none; 
+        display: none;
     }
 
     #main-nav {
-        display: flex !important; 
+        display: flex !important;
         flex-direction: row;
         position: static;
         width: auto;
@@ -16,7 +16,6 @@
         padding: 0.5rem 1.25rem;
     }
 
-    /* 5. Desktop Layout Override (Grid System Structure Grid) */
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
