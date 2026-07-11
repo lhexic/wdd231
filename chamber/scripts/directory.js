@@ -75,7 +75,8 @@ function displayMembers(members) {
         membership.textContent = levelText;
         membership.classList.add('member-level', `level-${member.membershipLevel}`);
 
-        logo.setAttribute('src', `images/${member.image}`);
+        // Pulls image directly from the url provided in JSON
+        logo.setAttribute('src', member.image);
         logo.setAttribute('alt', `Logo of ${member.name}`);
         logo.setAttribute('loading', 'lazy');
 

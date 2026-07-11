@@ -4,7 +4,7 @@
         "address": "19 Seventh Avenue, Ridge, Accra",
         "phone": "+233 30 221 3999",
         "website": "https://www.ecobank.com",
-        "image": "images/ecobank.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ecobank_Ghana.jpg/500px-Ecobank_Ghana.jpg",
         "membershipLevel": 3,
         "description": "A leading commercial bank offering premier pan-African banking services."
     },
@@ -13,7 +13,7 @@
         "address": "Spintex Road, Next to Kotobabi Junction, Accra",
         "phone": "+233 30 281 7409",
         "website": "https://www.spintexmedicalcenter.com",
-        "image": "images/spintex-medical.jpeg",
+        "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400",
         "membershipLevel": 2,
         "description": "Advanced multi-specialty healthcare facility and diagnostic center."
     },
@@ -22,7 +22,7 @@
         "address": "4th Floor, Junction Mall, Nungua, Accra",
         "phone": "+233 30 277 5181",
         "website": "https://goil.com.gh",
-        "image": "images/goil.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Goil.jpg/500px-Goil.jpg",
         "membershipLevel": 3,
         "description": "Ghana's premier indigenous oil marketing company and energy supplier."
     },
@@ -31,7 +31,7 @@
         "address": "Sintex Industrial Area, Spintex Road, Accra",
         "phone": "+233 30 281 0554",
         "website": "https://sintexgh.com",
-        "image": "images/sintex.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/75/Logo_for_Sintex_Industries_after_demerger.png",
         "membershipLevel": 2,
         "description": "Top-tier manufacturer of industrial storage plastic tanks and packaging products."
     },
@@ -40,7 +40,7 @@
         "address": "2 Larteh Rd, Awudome, Accra",
         "phone": "+233 54 012 3671",
         "website": "https://www.mnotify.com",
-        "image": "images/mnotify.png",
+        "image": "https://www.thrughus.com/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F8ae82d5e-f67b-415d-86cf-773854c2c195-jzrkza.jpeg&w=1920&q=75",
         "membershipLevel": 1,
         "description": "Customer engagement platform specializing in bulk SMS and custom AI communication solutions."
     },
@@ -49,7 +49,7 @@
         "address": "Kia Trade Centre, Airport Residential Area, Accra",
         "phone": "+233 24 243 8888",
         "website": "https://www.flyawa.com",
-        "image": "images/flyawa.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Africa_World_Airlines_Logo.jpg/500px-Africa_World_Airlines_Logo.jpg",
         "membershipLevel": 3,
         "description": "Reliable domestic and regional passenger airline service within West Africa."
     },
@@ -58,7 +58,7 @@
         "address": "Graphic Road, South Industrial Area, Accra",
         "phone": "+233 30 222 8846",
         "website": "https://accrabrewery.com.gh",
-        "image": "images/accra-brewery.png",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Accra_Brewery_Limited_Corporate_Logo.jpg/1920px-Accra_Brewery_Limited_Corporate_Logo.jpg",
         "membershipLevel": 1,
         "description": "Historic beverage manufacturer creating proud national refreshment since 1931."
     }
