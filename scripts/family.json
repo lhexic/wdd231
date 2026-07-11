@@ -1,0 +1,28 @@
+{
+    "family_name": "Azanu",
+    "move_in_date": "2023-01-15",
+    "number_of_members": 4,
+    "visited_by_bishop": true,
+    "family_members": [
+        {
+            "name": "Jonathan Kwadjo Azanu",
+            "gender": "Male",
+            "birthdate": "2001-03-19"
+        },
+        {
+            "name": "Anim Matilda Serwaa",
+            "gender": "Female",
+            "birthdate": "2006-02-20"
+        },
+        {
+            "name": "Emmanuel Azanu",
+            "gender": "Male",
+            "birthdate": "1999-06-10"
+        },
+        {
+            "name": "Joan Ahiabor",
+            "gender": "Female",
+            "birthdate": "2009-06-8"
+        }
+    ]
+}

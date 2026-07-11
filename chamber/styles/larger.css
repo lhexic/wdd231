@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+    #menu-toggle {
+        display: none;
+        /* Hide hamburger button on desktop viewports */
+    }
+
+    #nav-menu {
+        display: block !important;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    #nav-menu ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    #nav-menu li a {
+        border-top: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+
+    #directory-container.list-view section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    #directory-container.list-view section * {
+        margin: 0;
+        padding: 0 0.5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

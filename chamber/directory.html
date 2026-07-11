@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Directory</title>
+    <meta name="description" content="Chamber of Commerce business directory page.">
+    <meta name="author" content="Jonathan Kwadjo Azanu">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="Chamber Directory">
+    <meta property="og:description" content="Explore local businesses in our chamber directory.">
+    <meta property="og:image" content="https://lhexic.github.io/wdd231/chamber/images/share-image.jpg">
+    <meta property="og:url" content="https://lhexic.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <h1>Lhexiverse Chamber</h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Business Directory</h2>
+
+        <div class="view-toggle">
+            <button id="grid-view-btn" class="active">Grid View</button>
+            <button id="list-view-btn">List View</button>
+        </div>
+
+        <div id="directory-container" class="grid-view"></div>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact: info@lhexiverse.org</p>
+            <p>Phone: +233 59 176 9964</p>
+        </div>
+        <div class="dev-info">
+            <p>&copy; <span id="current-year"></span> | Jonathan Kwadjo Azanu | WDD 231</p>
+            <p id="last-modified"></p>
+        </div>
+    </footer>
+
+    <script src="scripts/directory.js"></script>
+</body>
+
+</html>

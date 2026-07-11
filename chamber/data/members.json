@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Ecobank Ghana",
+        "address": "19 Seventh Avenue, Ridge, Accra",
+        "phone": "+233 30 221 3999",
+        "website": "https://www.ecobank.com",
+        "image": "images/ecobank.jpg",
+        "membershipLevel": 3,
+        "description": "A leading commercial bank offering premier pan-African banking services."
+    },
+    {
+        "name": "Spintex Medical Center",
+        "address": "Spintex Road, Next to Kotobabi Junction, Accra",
+        "phone": "+233 30 281 7409",
+        "website": "https://www.spintexmedicalcenter.com",
+        "image": "images/spintex-medical.jpeg",
+        "membershipLevel": 2,
+        "description": "Advanced multi-specialty healthcare facility and diagnostic center."
+    },
+    {
+        "name": "Ghana Oil Company (GOIL)",
+        "address": "4th Floor, Junction Mall, Nungua, Accra",
+        "phone": "+233 30 277 5181",
+        "website": "https://goil.com.gh",
+        "image": "images/goil.png",
+        "membershipLevel": 3,
+        "description": "Ghana's premier indigenous oil marketing company and energy supplier."
+    },
+    {
+        "name": "Sintex Ghana",
+        "address": "Sintex Industrial Area, Spintex Road, Accra",
+        "phone": "+233 30 281 0554",
+        "website": "https://sintexgh.com",
+        "image": "images/sintex.jpg",
+        "membershipLevel": 2,
+        "description": "Top-tier manufacturer of industrial storage plastic tanks and packaging products."
+    },
+    {
+        "name": "mNotify Company Limited",
+        "address": "2 Larteh Rd, Awudome, Accra",
+        "phone": "+233 54 012 3671",
+        "website": "https://www.mnotify.com",
+        "image": "images/mnotify.png",
+        "membershipLevel": 1,
+        "description": "Customer engagement platform specializing in bulk SMS and custom AI communication solutions."
+    },
+    {
+        "name": "Africa World Airlines",
+        "address": "Kia Trade Centre, Airport Residential Area, Accra",
+        "phone": "+233 24 243 8888",
+        "website": "https://www.flyawa.com",
+        "image": "images/flyawa.jpg",
+        "membershipLevel": 3,
+        "description": "Reliable domestic and regional passenger airline service within West Africa."
+    },
+    {
+        "name": "Accra Brewery PLC",
+        "address": "Graphic Road, South Industrial Area, Accra",
+        "phone": "+233 30 222 8846",
+        "website": "https://accrabrewery.com.gh",
+        "image": "images/accra-brewery.png",
+        "membershipLevel": 1,
+        "description": "Historic beverage manufacturer creating proud national refreshment since 1931."
+    }
+]
