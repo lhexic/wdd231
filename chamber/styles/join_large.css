@@ -1,0 +1,8 @@
+@media (min-width: 38rem) {
+  .join-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+}
