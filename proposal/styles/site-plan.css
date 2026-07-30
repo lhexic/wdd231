@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #0d1b2a;    
+  --secondary-color: #00b4d8;  
+  --accent-color: #ffb703;     
+  --light-bg: #f8f9fa;         
+  --text-dark: #212529;        
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--light-bg);
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+header p {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.color-palette {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.color-box {
+  flex: 1;
+  min-width: 150px;
+  padding: 15px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.color-box.primary { 
+  background-color: var(--primary-color); 
+}
+
+.color-box.secondary { 
+  background-color: var(--secondary-color); 
+  color: #000000; 
+}
+
+.color-box.accent { 
+  background-color: var(--accent-color); 
+  color: #000000; 
+}
+
+.color-box.bg { 
+  background-color: var(--light-bg); 
+  color: #000000; 
+  border: 1px solid #cccccc; 
+}
+
+.typography-demo h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary-color);
+}
+
+.typography-demo p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wireframe-placeholder {
+  border: 2px dashed #cccccc;
+  padding: 20px;
+  text-align: center;
+  background: #fafafa;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666666;
+}
