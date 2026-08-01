@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover - Lhexiverse Chamber of Commerce</title>
+  <meta name="description" content="Discover points of interest, attractions, and local community features in the Lhexiverse Chamber area.">
+  <meta name="author" content="Jonathan Kwadjo Azanu">
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/discover.css">
+  <script type="module" src="scripts/discover.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/lhexic.png" alt="Lhexiverse Chamber Logo" width="50" height="50">
+      <h1>Lhexiverse Chamber of Commerce</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="discover-header">
+      <h2>Discover Our Community</h2>
+      <p>Explore key locations, business hubs, and local attractions across our region.</p>
+    </section>
+
+    <!-- localStorage Visit Message Banner -->
+    <aside id="visit-message" class="visit-banner" aria-live="polite"></aside>
+
+    <!-- Named Grid Container for the 8 Cards -->
+    <section class="discover-grid">
+      <!-- Generated dynamically by discover.js -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Lhexiverse Chamber of Commerce | W05 Discover Page</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
