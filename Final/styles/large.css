@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 1.5rem;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  .directory-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
