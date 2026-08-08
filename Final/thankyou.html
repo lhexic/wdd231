@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submission Received | Lhexiverse Tech Hub</title>
+  <meta name="description" content="Confirmation page displaying submitted resource details.">
+  <meta name="author" content="Jonathan Kwadjo Azanu">
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>Lhexiverse Tech Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Thank You!</h2>
+      <p>Your submission has been received successfully.</p>
+    </section>
+
+    <div style="background: var(--card-bg); padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); max-width: 600px; margin: 0 auto;">
+      <h3>Submitted Details:</h3>
+      <ul id="formDataList" style="margin-top: 1rem; list-style: none; display: flex; flex-direction: column; gap: 0.5rem;"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lhexiverse Tech Hub | All rights reserved.</p>
+    <p style="margin-top: 0.5rem;">
+      <a href="https://www.youtube.com/your-video-link" target="_blank" rel="noopener">Project Video Demonstration</a> | 
+      <a href="attributions.html">Attributions & Sources</a>
+    </p>
+  </footer>
+
+  <script type="module">
+    import { setWayfinding } from "./js/utils.js";
+    document.addEventListener("DOMContentLoaded", () => {
+      setWayfinding();
+      const params = new URLSearchParams(window.location.search);
+      const list = document.querySelector("#formDataList");
+      if (list && params.toString()) {
+        params.forEach((value, key) => {
+          const li = document.createElement("li");
+          li.innerHTML = `<strong>${key}:</strong> ${decodeURIComponent(value)}`;
+          list.appendChild(li);
+        });
+      }
+    });
+  </script>
+</body>
+</html>

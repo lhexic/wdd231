@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Resources | Lhexiverse Tech Hub</title>
+  <meta name="description" content="Explore a curated directory of 15+ web developer tools, documentation, and frameworks.">
+  <meta name="author" content="Jonathan Kwadjo Azanu">
+
+  <meta property="og:title" content="Lhexiverse Tech Hub Developer Directory">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Curated hub of essentials for modern web developers.">
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>Lhexiverse Tech Hub</h1>
+    <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Resource Directory</h2>
+      <p id="last-visit" style="margin-top: 1rem; font-weight: bold; color: var(--accent-color);"></p>
+    </section>
+
+    <div class="controls">
+      <label for="category-filter"><strong>Filter by Category: </strong></label>
+      <select id="category-filter" style="padding: 0.4rem; border-radius: 4px;">
+        <option value="all">All Categories</option>
+        <option value="Documentation">Documentation</option>
+        <option value="Version Control">Version Control</option>
+        <option value="Development Tools">Development Tools</option>
+        <option value="Design & CSS">Design & CSS</option>
+        <option value="Community">Community</option>
+        <option value="Performance">Performance</option>
+        <option value="Media">Media</option>
+      </select>
+    </div>
+
+    <div id="directory-container" class="directory-grid"></div>
+
+    <dialog id="resource-modal">
+      <div id="modal-details"></div>
+      <button id="close-modal" style="margin-top: 1rem; background: var(--primary-color); color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer;">Close</button>
+    </dialog>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lhexiverse Tech Hub | All rights reserved.</p>
+    <p style="margin-top: 0.5rem;">
+      <a href="https://www.youtube.com/your-video-link" target="_blank" rel="noopener">Project Video Demonstration</a> | 
+      <a href="attributions.html">Attributions & Sources</a>
+    </p>
+  </footer>
+
+  <script type="module" src="scripts/directory.js"></script>
+</body>
+</html>

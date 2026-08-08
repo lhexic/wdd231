@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "MDN Web Docs",
+    "category": "Documentation",
+    "description": "Comprehensive resources and documentation for HTML, CSS, JavaScript, and web APIs.",
+    "url": "https://developer.mozilla.org",
+    "icon": "🌐"
+  },
+  {
+    "id": 2,
+    "title": "GitHub",
+    "category": "Version Control",
+    "description": "Cloud-based hosting service for software development and version control using Git.",
+    "url": "https://github.com",
+    "icon": "🐙"
+  },
+  {
+    "id": 3,
+    "title": "Visual Studio Code",
+    "category": "Development Tools",
+    "description": "A lightweight and extensible code editor supporting various programming languages.",
+    "url": "https://code.visualstudio.com",
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "title": "CSS-Tricks",
+    "category": "Design & CSS",
+    "description": "Articles, guides, and tricks focused on modern CSS, Flexbox, and Grid techniques.",
+    "url": "https://css-tricks.com",
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "title": "JavaScript.info",
+    "category": "Documentation",
+    "description": "In-depth tutorials covering modern core JavaScript from basics to advanced topics.",
+    "url": "https://javascript.info",
+    "icon": "⚡"
+  },
+  {
+    "id": 6,
+    "title": "Can I Use",
+    "category": "Development Tools",
+    "description": "Up-to-date browser support tables for modern front-end web technologies.",
+    "url": "https://caniuse.com",
+    "icon": "📊"
+  },
+  {
+    "id": 7,
+    "title": "Stack Overflow",
+    "category": "Community",
+    "description": "Question and answer platform for professional and enthusiast developers.",
+    "url": "https://stackoverflow.com",
+    "icon": "💬"
+  },
+  {
+    "id": 8,
+    "title": "CodePen",
+    "category": "Development Tools",
+    "description": "Online code editor and front-end web development environment in the browser.",
+    "url": "https://codepen.io",
+    "icon": "✏️"
+  },
+  {
+    "id": 9,
+    "title": "Google Fonts",
+    "category": "Design & CSS",
+    "description": "Library of free and open-source font families for web projects.",
+    "url": "https://fonts.google.com",
+    "icon": "🔤"
+  },
+  {
+    "id": 10,
+    "title": "W3C Standards",
+    "category": "Documentation",
+    "description": "Web standards and guidelines for building an accessible, open web.",
+    "url": "https://www.w3.org",
+    "icon": "📜"
+  },
+  {
+    "id": 11,
+    "title": "Web.dev",
+    "category": "Performance",
+    "description": "Guidance and tools from Google to help build modern web experiences.",
+    "url": "https://web.dev",
+    "icon": "🚀"
+  },
+  {
+    "id": 12,
+    "title": "Font Awesome",
+    "category": "Design & CSS",
+    "description": "Vector icons and social logos for web development and design.",
+    "url": "https://fontawesome.com",
+    "icon": "✨"
+  },
+  {
+    "id": 13,
+    "title": "JSON Placeholder",
+    "category": "Development Tools",
+    "description": "Free fake REST API for testing and prototyping dynamic requests.",
+    "url": "https://jsonplaceholder.typicode.com",
+    "icon": "🔄"
+  },
+  {
+    "id": 14,
+    "title": "Unsplash API",
+    "category": "Media",
+    "description": "High-quality stock photography API for developer projects.",
+    "url": "https://unsplash.com/developers",
+    "icon": "📷"
+  },
+  {
+    "id": 15,
+    "title": "Dev.to",
+    "category": "Community",
+    "description": "A constructive and inclusive social network for software developers.",
+    "url": "https://dev.to",
+    "icon": "👩‍💻"
+  }
+]
