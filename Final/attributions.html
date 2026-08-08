@@ -3,15 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Attributions | Lhexiverse Tech Hub</title>
+  <title>Attributions & Sources | Lhexiverse Tech Hub</title>
+  <meta name="description" content="Attributions and content credits for data resources used in Lhexiverse Tech Hub.">
+  <meta name="author" content="Jonathan Kwadjo Azanu">
+
+  <meta property="og:title" content="Attributions - Lhexiverse Tech Hub">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Content credits and data sources for Lhexiverse Tech Hub.">
+  <meta property="og:image" content="https://lhexic.github.io/wdd131/final/images/share-image.avif">
+  <meta property="og:url" content="https://lhexic.github.io/wdd131/final/attributions.html">
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
-<body style="font-family: sans-serif; padding: 2rem; line-height: 1.6;">
-  <h1>Attributions & Sources</h1>
-  <p>Data resources and references used across Lhexiverse Tech Hub:</p>
-  <ul style="margin-top: 1rem; margin-left: 1.5rem;">
-    <li>Resource URLs and descriptions sourced from public developer portals including MDN Web Docs, GitHub, and W3C.</li>
-    <li>Icons provided via Unicode Emoji Symbols.</li>
-  </ul>
-  <p style="margin-top: 1.5rem;"><a href="index.html">&larr; Return to Home Page</a></p>
+<body>
+  <header>
+    <h1>Lhexiverse Tech Hub Attributions</h1>
+    <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Attributions & Content Credits</h2>
+      <p>Data, icons, and references used across the Lhexiverse Tech Hub application.</p>
+    </section>
+
+    <section style="background: var(--card-bg); padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color);">
+      <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+        <li><strong>Resource Data:</strong> Developer tool URLs, categories, and descriptions sourced from public developer documentation portals including MDN Web Docs, GitHub, and W3C.</li>
+        <li><strong>Icons & Emblems:</strong> Category icons provided via standard Unicode Emoji Symbols.</li>
+        <li><strong>Styling & Layout:</strong> Modular layout powered by CSS Grid and Flexbox responsive standards.</li>
+      </ul>
+      <p style="margin-top: 1.5rem;">
+        <a href="index.html" style="background: var(--accent-color); color: #fff; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; display: inline-block;">&larr; Return to Home Page</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lhexiverse Tech Hub | All rights reserved.</p>
+    <p style="margin-top: 0.5rem;">
+      <a href="https://www.youtube.com/your-video-link" target="_blank" rel="noopener">Project Video Demonstration</a> | 
+      <a href="attributions.html">Attributions & Sources</a>
+    </p>
+  </footer>
+
+  <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
