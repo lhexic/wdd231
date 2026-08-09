@@ -66,8 +66,8 @@ function renderCards(data) {
     card.innerHTML = `
       <h3>${item.icon || ''} ${item.name}</h3>
       <p>${item.description}</p>
-      <button class="details-btn btn-primary" data-resource='${jsonString}'>View Details</button>
-    `;
+      <button class="details-btn primary-btn" data-resource='${jsonString}'>View Details</button>
+   `;
 
     directoryContainer.appendChild(card);
   });
