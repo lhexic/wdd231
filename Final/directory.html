@@ -10,8 +10,12 @@
   <meta property="og:title" content="Lhexiverse Tech Hub Developer Directory">
   <meta property="og:type" content="website">
   <meta property="og:description" content="Curated hub of essentials for modern web developers.">
-  <meta property="og:image" content="https://lhexic.github.io/wdd131/final/images/share-image.avif">
-  <meta property="og:url" content="https://lhexic.github.io/wdd131/final/directory.html">
+  <meta property="og:image" content="https://lhexic.github.io/wdd231/Final/images/share-image.avif">
+  <meta property="og:url" content="https://lhexic.github.io/wdd231/Final/directory.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   
@@ -31,17 +35,11 @@
   </header>
 
   <main>
-    <section class="hero">
       <h2>Resource Directory</h2>
-      <p id="last-visit" style="margin-top: 1rem; font-weight: bold; color: var(--accent-color);"></p>
-    </section>
-
     <div class="controls">
       <label for="category-filter"><strong>Filter by Category: </strong></label>
-      <select id="category-filter" style="padding: 0.4rem; border-radius: 4px;">
+      <select id="category-filter">
         <option value="all">All Categories</option>
-        <option value="Documentation">Documentation</option>
-        <option value="Version Control">Version Control</option>
         <option value="Development Tools">Development Tools</option>
         <option value="Design & CSS">Design & CSS</option>
         <option value="Community">Community</option>
@@ -52,15 +50,16 @@
 
     <div id="directory-container" class="directory-grid"></div>
 
-    <dialog id="resource-modal">
-      <div id="modal-details"></div>
-      <button id="close-modal" style="margin-top: 1rem; background: var(--primary-color); color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer;">Close</button>
-    </dialog>
+  <dialog id="resource-modal">
+    <div id="modal-content"></div>
+    <button id="close-modal" class="btn-primary">Close</button>
+  </dialog>
+
   </main>
 
   <footer>
     <p>&copy; 2026 Lhexiverse Tech Hub | All rights reserved.</p>
-    <p style="margin-top: 0.5rem;">
+    <p class="footer-links">
       <a href="https://www.youtube.com/your-video-link" target="_blank" rel="noopener">Project Video Demonstration</a> | 
       <a href="attributions.html">Attributions & Sources</a>
     </p>
